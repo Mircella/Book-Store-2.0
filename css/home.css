@@ -21,7 +21,6 @@ body {
 
 .logo_center {
     font-weight: bold;
-    float:
 }
 
 
@@ -123,6 +122,17 @@ body > div:nth-child(3) > div > div.col-md-9 {
 #carouselExampleIndicators > a.carousel-control-next > span.carousel-control-next-icon {
     background-color: #555;
     padding: 20px;
+}
+
+.carousel-indicators li {
+    border-radius: 12px !important;
+    width: 12px !important;
+    height: 12px !important;
+    background-color: #404040 !important;
+}
+
+.carousel-indicators .active{
+    background-color: white !important;
 }
 
 /*-----------------------------------------*/
